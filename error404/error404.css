@@ -1,0 +1,102 @@
+
+
+
+@media (max-width: 400px) {
+  h1{
+   text-align: center;
+   position: relative;
+   right: 70px;
+  }
+
+.error{
+
+   position: relative;
+   right: 70px;
+}
+}
+
+
+/*pour ipad*/
+@media ( min-width: 300px) and ( max-width: 821px)  {
+
+   div{
+      margin: 0 auto;
+   }
+   .redirect{
+      margin-right: 70px;
+      text-align: center;
+      font-size: 20px;
+      
+   }
+   video{
+      height: 1450px;
+      object-fit: cover;
+   }
+   h1{
+      padding-right: 100px;
+      text-align: center;
+   }
+    .error {
+      margin-right: 100px;
+
+   }
+}
+
+
+/*pour deksktop*/
+@media (min-width: 821px) {
+  
+}
+
+body{
+    padding: 0;
+    margin: 0;
+max-width: 1200px;
+
+}
+
+
+ video{position: fixed;
+    margin: 0;
+    width: 1450px;
+    z-index: -1;
+
+ }
+
+
+
+ h1{ 
+    color: rgba(0, 0, 0, 0.795);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;    font-weight: bold;
+    font-size: 100px;
+    margin-left: 100px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    margin-top: 0%;
+   
+    
+ }
+
+
+ .error{
+    color: rgba(0, 0, 0, 0.795);
+    font-weight: bold;
+    margin-top: 150px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 200px;
+ }
+
+ .redirect{
+   text-align: center;
+    margin-left: 110px;
+    position: relative;
+    bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, serif;    font-weight: bold;
+ }
+
+
+
+
+

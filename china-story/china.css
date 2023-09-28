@@ -1,0 +1,68 @@
+
+body{
+    max-width: 90%;
+    margin: 25px;
+    background: -webkit-linear-gradient(4deg, rgb(104, 123, 139), rgb(204, 217, 230));
+    ; 
+    
+}
+
+
+.good{
+    color: green;
+    text-transform: uppercase;
+
+}
+.bad{
+    color: RED;
+    text-transform: uppercase;
+}
+
+ 
+ 
+p{
+    max-width: 50%;
+    margin: 80px;
+    margin-left:30% ;
+    font-size: 160%;
+    font-family: serif;
+    color: rgb(60, 30, 60);
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+    border-left: 3px firebrick solid;
+    padding: 30px; 
+    font-style: italic;
+}
+a{
+    text-decoration: dashed;
+    font-size: 34px;
+}
+a:hover{
+    color:red;
+}
+q{
+    font-size: 25px;
+
+}
+blockquote{
+    font-size: 25px;
+}
+
+table{
+    border-collapse:collapse ;
+    font-size: 25px; 
+    background-color: white;
+    margin-left: 30%;
+}
+h2{
+    margin-left: 30%;
+
+}
+ul{
+    margin: 20px;
+
+}
+li{
+    margin-top: 7px;
+    font-size: 25px;
+}
