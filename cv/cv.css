@@ -114,6 +114,8 @@ li {
     grid-row: auto;
     background-color: rgb(134, 35, 35);
     display: block;
+    color: rgb(193, 193, 193);
+    padding-left: 24px;
 }
 
 .net {
