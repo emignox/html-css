@@ -1,0 +1,41 @@
+body {
+    background-image: url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-color: black;
+    margin: 0 auto;
+}
+
+
+
+.crawl {
+    perspective: 1000px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.text {
+    transform: rotateX(70deg);
+    transform-origin: bottom center;
+    width: 90%;
+    height: 300px;
+    font-size: 60px;
+    color: yellow;
+    animation: crawl 20s linear forwards;
+    animation-delay: -1s;
+}
+
+
+
+@keyframes crawl {
+    0% {
+        transform: rotateX(70deg) translateY(500%);
+
+    }
+
+    100% {
+        transform: rotateX(80deg) translateY(-900%);
+    }
+}
