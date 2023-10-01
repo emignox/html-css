@@ -5,7 +5,6 @@ body {
 }
 
 
-
 .crawl {
     perspective: 1000px;
     display: flex;
@@ -23,8 +22,8 @@ body {
     height: 300px;
     font-size: 60px;
     color: yellow;
-    animation: crawl 20s linear forwards;
-    animation-delay: -1s;
+    animation: crawl 40s linear forwards;
+    animation-delay: -4s;
 }
 
 
@@ -36,6 +35,6 @@ body {
     }
 
     100% {
-        transform: rotateX(80deg) translateY(-900%);
+        transform: rotateX(80deg) translateY(-1500%);
     }
 }
