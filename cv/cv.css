@@ -30,6 +30,7 @@
         }
         li{
             padding: 10px;
+
         }
         i{
             padding: 10px;
@@ -46,12 +47,11 @@
 
 html {
     margin: 100px 100px 100px 100px;
-    background-color: rgb(241, 241, 241)
+    background-color: rgb(192, 189, 189);
 }
 
-body {
+body {background-color: white;
     margin: 0;
-    background-color: rgba(214, 214, 214, 0.95);
     font-family: sans-serif;
 }
 
@@ -106,6 +106,7 @@ h2 {
 
 
 li {
+    list-style-type:none;
     font-weight: bold;
     padding: 16px;
 }
@@ -126,7 +127,7 @@ li {
 i {
     padding-top: 10px;
     padding-left: 30px;
-    color: rgb(110, 119, 141);
+    color: rgb(0, 0, 0);
 }
 
 #etude {
